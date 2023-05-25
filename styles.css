@@ -29,20 +29,27 @@
 
     z-index: 1;
 
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .animals .card img{
     height: 100%;   
-    transform-origin: center;
+    
     
 }
 
-.animals .card img:nth-child(2){
-    transform: translateX(-25%);
+.animals .card:nth-child(2) img{
+    transform: translateX(-12.5%);
 
 
 }
+
+.animals .card:nth-child(3) img{
+    transform: translateX(-18.75%);
+
+
+}
+
 
 .animals .card .bottom{
     background-color: #ffffff50;
